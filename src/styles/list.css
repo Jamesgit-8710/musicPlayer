@@ -1,0 +1,11 @@
+.list {
+    height: calc(100% - 25rem);
+    background-color: rgb(52, 49, 61);
+    padding: 10px;
+    overflow-y: scroll;
+    border-radius: 0 0 10px 10px;
+}
+
+.list::-webkit-scrollbar {
+    display: none;
+}
